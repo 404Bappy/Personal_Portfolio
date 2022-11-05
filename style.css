@@ -95,3 +95,7 @@ header .navbar ul li a{
     border-radius: 5rem;
     color: rgb(208, 224, 237);
 }
+
+header .navbar ul li a:hover{
+    background: var(--yellow);
+}
