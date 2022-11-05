@@ -50,4 +50,9 @@ header{
     display: flex;
     align-items: center;
     flex-flow: column;
+    text-align: center;
+}
+
+header .user img{
+    height: ;
 }
