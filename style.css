@@ -33,3 +33,21 @@ html::-webkit-scrollbar-track{
 html::-webkit-scrollbar-thumb{
     background: var(--yellow);
 }
+
+body{
+    background: rgb(127, 185, 208);
+    overflow: hidden;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    height: 100%;
+    width: 35rem;
+    background: #4987ce;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+}
