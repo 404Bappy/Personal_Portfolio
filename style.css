@@ -75,3 +75,23 @@ header .user .post{
     font-size: 2rem;
     color: beige;
 }
+
+header .navbar{
+    width: 100%;
+}
+
+header .navbar ul{
+    list-style: none;
+    padding: 1rem 3rem;
+
+}
+
+header .navbar ul li a{
+    display: block;
+    padding: 1rem;
+    margin: 1.5rem 0;
+    background: #333;
+    font-size: 1.5rem;
+    border-radius: 5rem;
+    color: rgb(208, 224, 237);
+}
