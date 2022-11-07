@@ -45,7 +45,8 @@ body {
 
 header {
     position: fixed;
-    top: 0; left: 0;
+    top: 0;
+    left: 0;
     z-index: 1000;
     height: 100%;
     width: 35rem;
@@ -65,28 +66,29 @@ header .user img {
     margin-bottom: 1rem;
     border: 1rem solid var(--yellow);
 }
-header .user .name{
+
+header .user .name {
     font-size: 3.5rem;
     color: floralwhite;
 
 }
 
-header .user .post{
+header .user .post {
     font-size: 2rem;
     color: beige;
 }
 
-header .navbar{
+header .navbar {
     width: 100%;
 }
 
-header .navbar ul{
+header .navbar ul {
     list-style: none;
     padding: 1rem 3rem;
 
 }
 
-header .navbar ul li a{
+header .navbar ul li a {
     display: block;
     padding: 1rem;
     margin: 1.5rem 0;
@@ -96,11 +98,11 @@ header .navbar ul li a{
     color: rgb(208, 224, 237);
 }
 
-header .navbar ul li a:hover{
+header .navbar ul li a:hover {
     background: var(--yellow);
 }
 
-#menu{
+#menu {
     position: fixed;
     top: 2rem;
     right: 2rem;
@@ -134,45 +136,53 @@ header .navbar ul li a:hover{
 
 
 
-                                          /* ==============> Media Queries <================ */
+/* ==============> Media Queries <================ */
 @media (max-width:1200px) {
-    html{
-        font-size: 55%; 
+    html {
+        font-size: 55%;
     }
 }
 
 @media (max-width: 991px) {
-    header{
+    header {
         left: -120%;
     }
 }
 
-#menu{
+#menu {
     display: block;
 }
 
-header.toggle{
+header.toggle {
     left: 0%;
 }
 
 @media (max-width:991px) {
-    header{
+    header {
         left: -120%;
     }
 
-    #menu{
+    #menu {
         display: block;
     }
 
-    header.toggle{
+    header.toggle {
         left: 0%;
     }
-    
+
 }
 
+@media (max-width:768px) {
+    html {
+        font-size: 50%;
+    }
+
+}
+
+
 @media (max-width:400px) {
-    header{
+    header {
         left: -100vw;
     }
-    
+
 }
