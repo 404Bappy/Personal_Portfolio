@@ -150,3 +150,7 @@ header .navbar ul li a:hover{
 #menu{
     display: block;
 }
+
+header.toggle{
+    left: 0%;
+}
