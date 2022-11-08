@@ -57,6 +57,10 @@ section{
     margin-top: 1rem;
     font-size: 2rem;
     border-radius: 5rem;
+    
+}
+.button-position{
+    padding-left: 30rem;
 }
 
 .btn i{
@@ -87,7 +91,7 @@ header {
     left: 0;
     z-index: 1000;
     height: 100%;
-    width: 35rem;
+    width: 34rem;
     background: #4987ce;
     display:flex;
     align-items: center;
@@ -158,6 +162,7 @@ header .navbar ul li a:hover {
 .home{
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-flow: column;
     padding: 0 15rem;
     
@@ -165,20 +170,25 @@ header .navbar ul li a:hover {
 .home h3{
     font-size: 2.5rem;
     color: #fff;
+    padding-left: 30rem;
 }
 .home h1{
     font-size: 5rem;
     color: #fff;
+    padding-left: 30rem;
 }
 
 .home h1 span{
-    color: var(--yellow);
+    color:rgb(8, 93, 159)
+    
 }
 
-.home .p{
+.home p{
     font-size: 2rem;
     color: #eee;
     padding: 1rem 0;
+    padding-left: 30rem;
+    
     
 }
 
