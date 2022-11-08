@@ -49,6 +49,13 @@ section{
     padding: 1rem;
 }
 
+.btn{
+    padding: .7rem 3rem;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
 header {
     position: fixed;
     top: 0;
@@ -141,6 +148,7 @@ header .navbar ul li a:hover {
 .home p{
     font-size: 2rem;
     color: #eee;
+    padding: 1rem 0;
 }
 
 
