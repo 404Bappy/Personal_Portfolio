@@ -175,7 +175,7 @@ header .navbar ul li a:hover {
     color: var(--yellow);
 }
 
-.home p{
+.home .p{
     font-size: 2rem;
     color: #eee;
     padding: 1rem 0;
@@ -239,20 +239,6 @@ body{
     padding: 0%;
 }
 
-@media (max-width:991px) {
-    header {
-        left: -120%;
-    }
-
-    #menu {
-        display: block;
-    }
-
-    header.toggle {
-        left: 0%;
-    }
-
-}
 
 @media (max-width:768px) {
     html {
@@ -264,7 +250,22 @@ body{
 
 @media (max-width:400px) {
     header {
-        left: -100vw;
+        left: 100vw;
+    }
+    .heading{
+        margin: 0 3rem;
+    }
+    .about .row .counter .box{
+        width: 100%;
+    }
+    .education .box-counter .box{
+        width: 100%;
+    }
+    .portfolio .box-counter .box{
+        width: 100%;
+    }
+    .contact .row form{
+        margin: 3rem 0;
     }
 
 }
