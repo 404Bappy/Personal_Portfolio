@@ -226,6 +226,13 @@ header .navbar ul li a:hover {
     justify-content: center;
     flex-wrap: wrap;
 }
+.about .row .counter .box{
+   width: 20rem;
+   background: #222;
+   text-align: center;
+   padding: 2rem;
+   margin: 2rem;
+}
 
 
 
