@@ -200,6 +200,16 @@ header .navbar ul li a:hover {
     padding: 1rem 0;
 }
 
+.about .row .info{
+    flex: 1 1 48rem;
+    padding: 2rem 1rem;
+    padding-left: 6rem;
+}
+.about .row .counter{
+    flex: 1 1 48rem;
+    padding: 2rem 1rem;
+}
+
 
 
 
